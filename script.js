@@ -7,25 +7,25 @@ function calculate(){
     //check the shape
     if (shape == 'circle'){
         const radius = parseFloat(prompt("Enter the radius0")); //ask the user for the radius
-        area = Math.PI * radius; //clculate the area
-        alert("THe are of the circle is,are"); //display the area
+        area = Math.PI * radius; //clculate the perimeter
+        alert("The perimeter of the circle is are"); //display the perimeter
     }
     else if (shape == 'rectangle'){
         const lenght = parseFloat(prompt("Enter the lenght"));
         const width = parseFloat(prompt("Enter the width"));
-        area = lenght * width; //claculate the area
-        alert("The area of the rectangle is:",area); //display the area
+        area = lenght * width; //claculate the perimeter
+        alert("The perimeter of the rectangle is:",area); //display the perimeter
     }
     else if (shape == 'triangle'){
         const base = parseFloat(prompt("Else the base")); //ask user for the base
         const height = parseFloat(prompt("Enter the height")); //ask user for the height
-        area = 0.5 * base * height; //calculate the area
-        alert("The are of the triangle is:",area); //display the area
+        area = 0.5 * base * height; //calculate the perimeter
+        alert("The perimeter of the triangle is:",area); //display the perimeter
     }
     else if (shape == 'sqaure'){
         const side = parseFloat(prompt("Enter the side:")); //ask the user for the side
-        area = side * side; //calculate the area
-        alert("The area of the square is:",area); //display the area
+        area = side * side; //calculate the perimeter
+        alert("The perimeter of the square is:",area); //display the area
     }
     else{
         alert("Invalid shape!"); //display an error message
