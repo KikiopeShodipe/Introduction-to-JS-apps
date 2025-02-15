@@ -1,4 +1,4 @@
-//create a function to calculate the area
+//create a function to calculate the perimeter
 function calculate(){
     //ask the user for the shape
     const shape = prompt("Enter the shape (circle, triangle, rectangle or square):").
@@ -25,7 +25,7 @@ function calculate(){
     else if (shape == 'sqaure'){
         const side = parseFloat(prompt("Enter the side:")); //ask the user for the side
         area = side * side; //calculate the perimeter
-        alert("The perimeter of the square is:",area); //display the area
+        alert("The perimeter of the square is:",area); //display the perimeter
     }
     else{
         alert("Invalid shape!"); //display an error message
